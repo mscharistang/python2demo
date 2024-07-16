@@ -10,7 +10,11 @@ class Employee:
     # getter
     @property # decorator for getter
     def first_name(self):
+
         return self._first_name + "123456"
+
+       
+
     @property
     def last_name(self):
         return self._last_name
